@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мой сайт</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top">Моё имя</a>
+      <nav class="nav">
+        <a href="#about">Обо мне</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Переключить тему">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="top" class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Привет, я</p>
+        <h1>Моё имя</h1>
+        <p class="hero-text">Учусь веб-разработке и осваиваю Git и GitHub. Этот сайт — мой первый учебный проект, который я развиваю через коммиты и ветки.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Смотреть проекты</a>
+          <a class="btn btn-ghost" href="#contact">Связаться</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrap">
+        <h2>Обо мне</h2>
+        <p>Я изучаю программирование и веб-разработку. Этот сайт создан как практический проект: каждое изменение здесь я сохраняю коммитом и отправляю на GitHub, чтобы отработать реальный рабочий процесс — ветки, слияния, pull request.</p>
+        <ul class="skills">
+          <li>HTML &amp; CSS</li>
+          <li>JavaScript</li>
+          <li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="wrap">
+        <h2>Проекты</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-tag">Учебный проект</div>
+            <h3>Этот сайт</h3>
+            <p>Личная страница, созданная с нуля и размещённая на GitHub Pages в рамках изучения Git.</p>
+          </article>
+          <article class="card">
+            <div class="card-tag">В планах</div>
+            <h3>Второй проект</h3>
+            <p>Место для следующей учебной работы — замените этот текст, когда добавите новый проект.</p>
+          </article>
+          <article class="card">
+            <div class="card-tag">В планах</div>
+            <h3>Третий проект</h3>
+            <p>Ещё один слот для будущих работ. Добавляйте карточки по мере роста портфолио.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrap">
+        <h2>Контакты</h2>
+        <p>Хотите связаться? Напишите мне.</p>
+        <a class="btn btn-primary" href="mailto:you@example.com">you@example.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Моё имя. Сделано с Git и терпением.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
