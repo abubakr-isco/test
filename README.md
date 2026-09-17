@@ -34,3 +34,4 @@
    ```
    внесите правки, закоммитьте, `git push -u origin feature/projects`, откройте Pull Request на GitHub и слейте его в `main`.
 5. (Опционально) Включите **GitHub Pages** в настройках репозитория (Settings → Pages, ветка `main`, папка `/`) — сайт станет доступен по ссылке вида `https://username.github.io/my-site/`.
+# test
